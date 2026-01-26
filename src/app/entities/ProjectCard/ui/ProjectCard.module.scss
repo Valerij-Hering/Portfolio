@@ -1,0 +1,30 @@
+
+.containerCard {
+    width: 100%;
+    max-width: 480px;
+    padding: 20px;
+    background-color: var(--white-soft-color);
+    border-radius: var(--border-radius-12);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35);
+
+
+}
+
+.image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: var(--border-radius-10);
+    border: 0.5px solid rgba(0, 0, 0, 0.109);
+}
+
+.description {
+    text-align: justify;
+    flex-grow: 1;          // описание растягивается
+    overflow: hidden;      // скрывает лишнее
+    height: 72px;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;   /* сколько строк оставить */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}

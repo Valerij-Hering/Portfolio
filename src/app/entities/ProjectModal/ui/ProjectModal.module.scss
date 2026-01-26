@@ -1,0 +1,94 @@
+@use '@/app/styles/media-queries.scss' as *;
+
+.overlay {
+    padding: 30px 10px;
+    position: fixed;
+    inset: 0;
+    background-color: var(--white-soft-color);
+    overflow-y: auto;
+    z-index: 100;
+}
+
+.modal {
+    width: 100%;
+    max-width: 1250px;
+    background-color: var(--white-soft-color);
+    border-radius: var(--border-radius-10);
+    @include desktop-1280 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+
+.image {
+    width: 100%;
+    max-width: 600px;
+
+}
+
+.subtitle {
+    max-width: 500px;
+    line-height: 1.5;
+    @include mobile-768 {
+        width: 100%;
+    }
+}
+
+.containerFeatures {
+    @include desktop-1280 {
+        justify-content: center;
+    } 
+}
+
+.containerContent {
+    width: 100%;
+    @include desktop-1280 {
+        align-items: center;
+    }
+}
+
+.content {
+    @include desktop-1280 {
+        align-items: center;
+    }
+}
+
+.contentTitle {
+    width: 100%;
+    max-width: 270px;
+}
+
+.description {
+    width: 100%;
+    max-width: 270px;
+    line-height: 1.6;
+    @include desktop-1280 {
+        text-align: center;
+    }
+    @include mobile-768 {
+        max-width: 100%;
+    }
+}
+
+.tech {
+    background-color: #adcef8;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+
+.skeleton {
+    width: 100%;
+    max-width: 600px;
+    height: 340px;
+    background: #e1e1e1;
+    border-radius: 12px;
+    animation: pulse 1.3s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { opacity: 1 }
+  50% { opacity: .4 }
+  100% { opacity: 1 }
+}

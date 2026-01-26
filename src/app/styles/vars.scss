@@ -1,0 +1,154 @@
+@use './fonts';
+
+:root {
+/* -------------------------------------------------------------------------- */
+/*                                COLORS                                      */
+/* -------------------------------------------------------------------------- */
+    --white-color: #ffffff;
+    --white-soft-color: #f7f9fb;
+    --blue-color: #4b70e2;
+    --canvas-color: #071928;
+    --black-color: #1f2335;
+    --black-soft-color: #33456f;
+    --dark-overlay-color: #1f2335d1;
+    --grey-color: #7b809a;
+    --grey-border-color: #565e736a;
+
+    /* Social Media Colors */
+    --telegram-color: #1DA1F2;
+    --linkedin-blue: #0b65c2;
+    --github-color: #333333;
+
+/* -------------------------------------------------------------------------- */
+/*                              BUTTON THEMES                                 */
+/* -------------------------------------------------------------------------- */
+    /* Button Raised Blue Theme */
+    --button-blue-bg-gradient: linear-gradient(195deg, #6e87d2, #4b70e2);
+    --button-blue-text: var(--white-color);
+    --button-blue-shadow: 
+        rgba(26, 115, 232, 0.15) 0rem 0.1875rem 0.1875rem 0rem,
+        rgba(26, 115, 232, 0.2) 0rem 0.1875rem 0.0625rem -0.125rem,
+        rgba(26, 115, 232, 0.15) 0rem 0.0625rem 0.3125rem 0rem;
+    --button-blue-shadow-hover:
+        rgba(26, 115, 232, 0.4) 0rem 0.875rem 1.625rem -0.75rem,
+        rgba(26, 115, 232, 0.15) 0rem 0.25rem 1.4375rem 0rem,
+        rgba(26, 115, 232, 0.2) 0rem 0.5rem 0.625rem -0.3125rem;
+
+    /* Button Raised Grey Theme */
+    --button-grey-bg-gradient: linear-gradient(195deg, rgb(116, 123, 138), rgb(73, 83, 97));
+    --button-grey-text: var(--white-color);
+    --button-grey-shadow:
+        rgba(123, 128, 154, 0.15) 0rem 0.1875rem 0.1875rem 0rem,
+        rgba(123, 128, 154, 0.2) 0rem 0.1875rem 0.0625rem -0.125rem,
+        rgba(123, 128, 154, 0.15) 0rem 0.0625rem 0.3125rem 0rem;
+    --button-grey-shadow-hover:
+        rgba(123, 128, 154, 0.4) 0rem 0.875rem 1.625rem -0.75rem,
+        rgba(123, 128, 154, 0.15) 0rem 0.25rem 1.4375rem 0rem,
+        rgba(123, 128, 154, 0.2) 0rem 0.5rem 0.625rem -0.3125rem;
+
+    /* Button Raised Dark Theme */
+    --button-dark-bg-gradient: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+    --button-dark-text: var(--white-color);
+    --button-dark-shadow:
+        rgba(52, 71, 103, 0.15) 0rem 0.1875rem 0.1875rem 0rem,
+        rgba(52, 71, 103, 0.2) 0rem 0.1875rem 0.0625rem -0.125rem,
+        rgba(52, 71, 103, 0.15) 0rem 0.0625rem 0.3125rem 0rem;
+    --button-dark-shadow-hover:
+    #34476766 0rem 0.875rem 1.625rem -0.75rem,
+    #34476726 0rem 0.25rem 1.4375rem 0rem,
+    #34476733 0rem 0.5rem 0.625rem -0.3125rem;
+
+    /* Button Raised Pink Theme */
+    --button-pink-bg-gradient: linear-gradient(195deg, #ec407a, #d81b60);
+    --button-pink-text: var(--white-color);
+    --button-pink-shadow:
+        #e91e6326 0rem 0.1875rem 0.1875rem 0rem,
+        #e91e6333 0rem 0.1875rem 0.0625rem -0.125rem,
+        #e91e6326 0rem 0.0625rem 0.3125rem 0rem;
+    --button-pink-shadow-hover:
+        #e91e6366 0rem 0.875rem 1.625rem -0.75rem,
+        #e91e6326 0rem 0.25rem 1.4375rem 0rem,
+        #e91e6333 0rem 0.5rem 0.625rem -0.3125rem;
+
+    --button-pink: #e91e63;
+    --button-grey: #7b809a;
+    --button-blue: #1a73e8;
+    --button-dark: var(--black-soft-color);
+    --button-white:var(--white-color);
+
+/* -------------------------------------------------------------------------- */
+/*                                FONT-FAMILY                                 */
+/* -------------------------------------------------------------------------- */
+
+    /* Poppins */
+    --font-family-poppins-100: "poppins-100", sans-serif;
+    --font-family-poppins-200: "poppins-200", sans-serif;
+    --font-family-poppins-300: "poppins-300", sans-serif;
+    --font-family-poppins-400: "poppins-400", sans-serif;
+    --font-family-poppins-500: "poppins-500", sans-serif;
+    --font-family-poppins-600: "poppins-600", sans-serif;
+    --font-family-poppins-700: "poppins-700", sans-serif;
+    --font-family-poppins-800: "poppins-800", sans-serif;
+    --font-family-poppins-900: "poppins-900", sans-serif;
+
+    /* Ubuntu */
+    --font-family-ubuntu-300: "ubuntu-300", sans-serif;
+    --font-family-ubuntu-400: "ubuntu-400", sans-serif;
+    --font-family-ubuntu-500: "ubuntu-500", sans-serif;
+    --font-family-ubuntu-700: "ubuntu-700", sans-serif;
+
+    /* Inter */
+    --font-family-inter-100: "inter-100", sans-serif;
+    --font-family-inter-200: "inter-200", sans-serif;
+    --font-family-inter-300: "inter-300", sans-serif;
+    --font-family-inter-400: "inter-400", sans-serif;
+    --font-family-inter-500: "inter-500", sans-serif;
+    --font-family-inter-600: "inter-600", sans-serif;
+    --font-family-inter-700: "inter-700", sans-serif;
+    --font-family-inter-800: "inter-800", sans-serif;
+    --font-family-inter-900: "inter-900", sans-serif;
+
+/* -------------------------------------------------------------------------- */
+/*                                FONT SIZES                                  */
+/* -------------------------------------------------------------------------- */
+    --font-size-12: 12px;
+    --font-size-13: 13px;
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-18: 18px;
+    --font-size-20: 20px;
+    --font-size-22: 22px;
+    --font-size-24: 24px;
+    --font-size-28: 28px;
+    --font-size-32: 32px;
+    --font-size-34: 34px;
+    --font-size-42: 42px;
+    --font-size-46: 46px;
+    --font-size-48: 48px;
+    --font-size-64: 64px;
+    --font-size-144: 144px;
+
+/* -------------------------------------------------------------------------- */
+/*                                GAPS                                        */
+/* -------------------------------------------------------------------------- */
+    --gap-3: 3px;
+    --gap-4: 4px;
+    --gap-8: 8px;
+    --gap-12: 12px;
+    --gap-16: 16px;
+    --gap-24: 24px;
+    --gap-32: 32px;
+    --gap-48: 48px;
+    --gap-64: 64px;
+
+/* -------------------------------------------------------------------------- */
+/*                                BORDER-RADIUS                               */
+/* -------------------------------------------------------------------------- */
+    --border-radius-5: 5px;
+    --border-radius-8: 8px;
+    --border-radius-10: 10px;
+    --border-radius-12: 12px;
+    --border-radius-16: 18px;
+    --border-radius-24: 24px;
+    --border-radius-50: 50px;
+}

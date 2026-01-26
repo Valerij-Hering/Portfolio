@@ -1,0 +1,80 @@
+@use '@/app/styles/media-queries.scss' as *;
+
+
+.carouselWrapper {
+  width: 450px;
+  height: 400px;
+
+  perspective: 1000px;
+  overflow: visible;
+  touch-action: none;
+  @include mobile-768 {
+        height: 370px;
+    }
+}
+
+/* container that is rotated by drag */
+.dragContainer {
+  position: relative;
+  width: 100%;
+  max-width: 900px; /* keep reasonable */
+  height: 100%;
+  margin: 0 auto;
+  transform-style: preserve-3d;
+  transform: rotateX(-10deg);
+  will-change: transform;
+  
+}
+
+/* spin container holds images positioned in circle */
+.spinContainer {
+  position: relative;
+  margin: auto;
+  transform-style: preserve-3d;
+  will-change: transform;
+  /* animation name is set inline in JS when autoRotate is enabled.
+     We provide keyframes below for spin-reverse (left rotation). */
+     animation: spin-reverse 60s linear infinite;
+}
+
+/* images styling */
+.spinContainer img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-style: preserve-3d;
+  transform-origin: center center;
+  border-radius: 10px;
+  border-top: var(--grey-color) 1px solid;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.18), 0 10px 16px rgba(0,0,0,0.08);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, rgba(0,0,0,0.25));
+  user-select: none;
+  pointer-events: auto;
+  object-fit: cover;
+  
+}
+
+/* ground (circular shadow/ground plane) */
+.ground {
+  width: 900px;
+  height: 900px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateX(90deg);
+
+  border-radius: 50%;
+  filter: blur(14px);
+  pointer-events: none;
+}
+
+/* Keyframes for left-rotation (reverse spin) */
+@keyframes spin-reverse {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+

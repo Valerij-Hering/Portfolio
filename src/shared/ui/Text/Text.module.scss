@@ -1,0 +1,129 @@
+$sizes: (
+    12: var(--font-size-12),
+    13: var(--font-size-13),
+    14: var(--font-size-14),
+    16: var(--font-size-16),
+    18: var(--font-size-18),
+    20: var(--font-size-20),
+    22: var(--font-size-22),
+    24: var(--font-size-24),
+    28: var(--font-size-28),
+    32: var(--font-size-32),
+    34: var(--font-size-34),
+    42: var(--font-size-42),
+    46: var(--font-size-46),
+    48: var(--font-size-48),
+    64: var(--font-size-64)
+);
+
+
+
+@each $size, $value in $sizes {
+    .size#{$size} {
+        font-size: #{$value};
+    }
+}
+
+$colors: (
+    "white": var(--white-color),
+    "whiteSoft": var(--white-soft-color),
+    "black": var(--black-color),
+    "blackSoft": var(--black-soft-color),
+    "blue": var(--blue-color),
+    "grey": var(--grey-color)
+);
+
+@each $color, $value in $colors {
+    .color#{$color} {
+        color: #{$value};
+    }
+}
+
+$line-heights: (
+    12: 1.2,
+    14: 1.4,
+    16: 1.6,
+    18: 1.8,
+);
+
+@each $key, $value in $line-heights {
+    .lh#{$key} {
+        line-height: #{$value};
+    }
+}
+
+//Poppins
+.poppins100 {
+    font-family: var(--font-family-poppins-100);
+}
+.poppins200 {
+    font-family: var(--font-family-poppins-200);
+}
+.poppins300 {
+    font-family: var(--font-family-poppins-300);
+}
+.poppins400 {
+    font-family: var(--font-family-poppins-400);
+}
+.poppins500 {
+    font-family: var(--font-family-poppins-500);
+}
+.poppins600 {
+    font-family: var(--font-family-poppins-600);
+}
+.poppins700 {
+    font-family: var(--font-family-poppins-700);
+}
+.poppins800 {
+    font-family: var(--font-family-poppins-800);
+}
+.poppins900 {
+    font-family: var(--font-family-poppins-900);
+}
+
+//Ubuntu
+.ubuntu300 {
+    font-family: var(--font-family-ubuntu-300);
+    font-weight: 300;
+}
+.ubuntu400 {
+    font-family: var(--font-family-ubuntu-400);
+    font-weight: 400;
+}
+.ubuntu500 {
+    font-family: var(--font-family-ubuntu-500);
+    font-weight: 500;
+}
+.ubuntu700 {
+    font-family: var(--font-family-ubuntu-700);
+    font-weight: 700;
+}
+
+/* Inter */
+.inter100 {
+    font-family: var(--font-family-inter-100);
+}
+.inter200 {
+    font-family: var(--font-family-inter-200);
+}
+.inter300 {
+    font-family: var(--font-family-inter-300);
+}
+.inter400 {
+    font-family: var(--font-family-inter-400);
+}
+.inter500 {
+    font-family: var(--font-family-inter-500);
+}
+.inter600 {
+    font-family: var(--font-family-inter-600);
+}
+.inter700 {
+    font-family: var(--font-family-inter-700);
+}
+.inter800 {
+    font-family: var(--font-family-inter-800);
+}
+.inter900 {
+    font-family: var(--font-family-inter-900);
+}

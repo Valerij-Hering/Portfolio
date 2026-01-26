@@ -1,0 +1,16 @@
+.scrollToTopButton {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50px;
+    background-color: var(--blue-color);
+    color: var(--button-blue-text);
+
+}
+
+.scrollToTopButton svg {
+    transform: rotate(180deg);
+}
+

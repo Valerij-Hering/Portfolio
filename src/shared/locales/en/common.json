@@ -1,0 +1,370 @@
+{
+    "me": {
+        "my_name": "Valerii Hering",
+        "my_address": "Ahlen, Germany"
+    },
+    "languages": {
+        "en": "English",
+        "de": "German",
+        "ru": "Russian"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "service": "Service",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact",
+        "Portfo": "Portfo",
+        "lio.": "lio."
+    },
+    "home": {
+        "Hello, my name is": "Hello, my name is",
+        "And I'm a": "And I'm a",
+        "roles": ["Developer", "Freelancer", "Designer"]
+    },
+    "about": {
+        "About me": "About me",
+        "who i am": "who i am",
+        "I'm Valerii and I'm a": "I'm Valerii and I'm a",
+        "about_text": "Hello, my name is Valerii, and I am a Front-end developer from Ahlen, Germany. I create high-quality websites and web applications with a focus on clean code and modern technologies. I have strong skills in HTML, CSS, JavaScript, React, Redux, and Node.js, and I actively work with API integration and modern development tools. Explore my profile and projects on this site to get a better understanding of who I am and what I do."
+    },
+    "service": {
+        "My Service": "My Service",
+        "what i provide": "what i provide",
+        "Web Development": "Web Development",
+        "Web Design": "Web Design",
+        "Responsive Design": "Responsive Design"
+    },
+    "skills": {
+        "My Skills": "My Skills",
+        "what i know": "what i know",
+        "My creative skills & experience": "My creative skills & experience",
+        "Languages": "Languages",
+        "Libraries & frameworks": "Libraries & frameworks"
+    },
+    "projects": {
+        "My Projects": "My Projects",
+        "what can i do": "what can i do"
+    },
+    "contact": {
+        "Contact me": "Contact me",
+        "get in touch": "get in touch",
+        "Get in Touch": "Get in Touch",
+        "contact_text": "Feel free to ask your question here, and I'll respond within the day. Please remember to include your details.",
+        "Name": "Name",
+        "Address": "Address",
+        "Email": "Email",
+        "Message Me": "Message Me",
+        "Message": "Message",
+        "Phone": "Phone"
+    },
+    "footer": {
+        "Created by": "Created by",
+        "Valerii Hering": "Valerii Hering",
+        "All rights reserved": "All rights reserved"
+    },
+    "githubModal": {
+        "CHOOSE REPOSITORY": "CHOOSE REPOSITORY"
+    },
+    "filter": {
+        "All Projects": "All Projects",
+        "React": "React",
+        "Frontend": "Frontend",
+        "Fullstack": "Fullstack"
+    },
+    "projects_data": {
+        "events_calendar": {
+        "title": "Events Calendar",
+        "description": "An event planner built with React and Node.js. Users can add, edit, and view events in a clean interactive calendar.",
+        "features": {
+            "api_integration": {
+            "title": "API Integration",
+            "description": "Connects effortlessly with RESTful APIs, enabling dynamic data fetching and real-time updates for a responsive experience."
+            },
+            "database_support": {
+            "title": "Database Support",
+            "description": "Powered by MongoDB for reliable, scalable, and high-performance data storage and querying."
+            },
+            "user_security": {
+            "title": "User Security",
+            "description": "Includes secure login and logout functionality. Each user can access and manage only their own private notes."
+            },
+            "fully_responsive": {
+            "title": "Fully Responsive",
+            "description": "Adaptive layouts ensure a consistent and smooth experience across smartphones, tablets, and desktops."
+            }
+        }
+    },
+
+        "weather_website": {
+        "title": "Weather Website",
+        "description": "A responsive weather app displaying real-time data from an API. Users can search cities and view detailed forecasts.",
+        "features": {
+            "api_integration": {
+            "title": "API Integration",
+            "description": "Fetches accurate real-time weather data from OpenWeather API for instant updates and forecasts."
+            },
+            "interactive_map": {
+            "title": "Interactive Map",
+            "description": "Displays weather conditions across the globe with live location tracking and dynamic map visuals."
+            },
+            "visual_charts": {
+            "title": "Visual Charts",
+            "description": "Illustrates temperature, wind, and pressure changes with smooth and informative data visualizations."
+            },
+            "fast_performance": {
+            "title": "Fast Performance",
+            "description": "Optimized React components ensure smooth rendering, quick loading, and responsive user interactions."
+            }
+        }
+    },
+
+        "foodies": {
+        "title": "Foodies",
+        "description": "A recipe search app using an external API. Users can find, filter, and save their favorite meals for later cooking.",
+        "features": {
+                "smart_cart": {
+                "title": "Smart Cart",
+                "description": "Add, remove, and manage dishes effortlessly with a live cart powered by Redux for smooth state handling."
+                },
+                "secure_payment": {
+                "title": "Secure Payment",
+                "description": "Integrated with Stripe to provide fast, safe, and reliable online payments directly within the app."
+                },
+                "user_account": {
+                "title": "User Account",
+                "description": "Includes account creation, login, and logout for personalized shopping and order tracking."
+                },
+                "fully_responsive": {
+                "title": "Fully Responsive",
+                "description": "Designed for a seamless and intuitive experience on desktops, tablets, and mobile devices."
+                }
+            }
+        },
+
+    "yoga_website": {
+        "title": "Yoga Website",
+        "description": "A smooth, responsive yoga website showcasing classes, instructors, and schedules with calming modern visuals.",
+        "features": {
+            "api_integration": {
+            "title": "API Integration",
+            "description": "Connects effortlessly with RESTful APIs, enabling dynamic data fetching and real-time updates for a responsive experience."
+            },
+            "database_support": {
+            "title": "Database Support",
+            "description": "Powered by MongoDB for reliable, scalable, and high-performance data storage and querying."
+            },
+            "fully_responsive": {
+            "title": "Fully Responsive",
+            "description": "Adaptive layouts ensure a consistent and smooth experience across smartphones, tablets, and desktops."
+            },
+            "fast_performance": {
+            "title": "Fast Performance",
+            "description": "Crafted with optimized React components to deliver lightning-fast load times and seamless user interactions."
+            }
+        }
+    },
+
+        "recipes": {
+            "title": "Recipes App",
+            "description": "A recipe app to explore dishes worldwide. Search by ingredient, view steps, and save favorites with a smooth UI.",
+            "features": {
+                "api": {
+                "title": "API Integration",
+                "description": "Seamlessly connects to the Edamam REST API to fetch thousands of recipes with real-time nutrition data."
+                },
+                "search": {
+                "title": "Smart Search",
+                "description": "Allows users to search recipes by any keyword — from ‘avocado’ to ‘chocolate cake’ — instantly showing matching results."
+                },
+                "nutrition": {
+                "title": "Nutrition Facts",
+                "description": "Displays detailed nutrition breakdown including calories, protein, carbs, and fats for each recipe."
+                },
+                "responsive": {
+                "title": "Responsive Design",
+                "description": "Optimized layout adapts smoothly across devices — mobile, tablet, and desktop — for easy recipe browsing."
+                }
+            }
+            },
+
+        "splitBill": {
+            "title": "Split a Bill App",
+            "description": "An interactive app to split expenses easily. Enter total, people, and tip — it instantly calculates each share.",
+            "features": {
+                "smartSplit": {
+                "title": "Smart Split",
+                "description": "Automatically calculates each person’s share with tips included, making bill splitting effortless."
+                },
+                "tipOptions": {
+                "title": "Tip Options",
+                "description": "Choose from preset tip percentages — or go for no tip at all — with instant visual feedback."
+                },
+                "alerts": {
+                "title": "Error Alerts",
+                "description": "Built-in validation and friendly alerts ensure all required data is entered correctly before calculating."
+                },
+                "responsive": {
+                "title": "Fully Responsive",
+                "description": "Designed for a seamless and intuitive experience on desktops, tablets, and mobile devices."
+                }
+            }
+        },
+
+        "christmas": {
+            "title": "Marry Christmas!",
+            "description": "A festive interactive website with animations, lights, and holiday spirit. Built for fun and seasonal greetings.",
+            "features": {
+                "countdown": {
+                "title": "Live Countdown",
+                "description": "Displays a real-time countdown to New Year’s Eve with automatic yearly reset and a festive message for 3 days after."
+                },
+                "music": {
+                "title": "Music Player",
+                "description": "Built-in audio player with play, pause, next, and previous controls for classic Christmas tracks."
+                },
+                "snow": {
+                "title": "Falling Snow",
+                "description": "Interactive snow particles powered by Particles.js for a cozy, animated winter atmosphere."
+                },
+                "responsive": {
+                "title": "Fully Responsive",
+                "description": "Optimized for all screen sizes, ensuring a smooth festive experience across devices."
+                }
+            }
+        },
+
+            "clock": {
+            "title": "Clock App",
+            "description": "A simple digital clock with smooth animations. Displays current time in a minimal, modern interface layout.",
+            "features": {
+                "analogDigital": {
+                "title": "Analog & Digital Clock",
+                "description": "Displays the current time both as an analog clock with rotating hands and as a digital text display."
+                },
+                "date": {
+                "title": "Current Date",
+                "description": "Shows the full date including day, month, and year. The date updates automatically every second."
+                },
+                "theme": {
+                "title": "Dark/Light Theme",
+                "description": "Toggle between dark and light themes. Your preference is saved in localStorage for the next visit."
+                },
+                "responsive": {
+                "title": "Responsive Design",
+                "description": "Clock interface is fully responsive and works on all screen sizes, maintaining functionality and readability."
+                }
+            }
+        },
+
+        "stopwatch": {
+            "title": "Stopwatch App",
+            "description": "A stopwatch web app with start, pause, and reset controls. Built for simplicity and precise time tracking.",
+            "features": {
+                "precision": {
+                "title": "Precision Stopwatch",
+                "description": "Start, stop, and reset a high-precision stopwatch with milliseconds accuracy."
+                },
+                "laps": {
+                "title": "Lap Tracking",
+                "description": "Record multiple lap times with automatic reset. Each lap is clearly displayed."
+                },
+                "analogDigital": {
+                "title": "Analog & Digital Clock",
+                "description": "Integrated circular and numeric display to visualize the running time."
+                },
+                "responsive": {
+                "title": "Fully Responsive",
+                "description": "Optimized for all screen sizes, ensuring a smooth, fast experience across devices."
+                }
+            }
+        },
+
+        "form": {
+            "title": "Form",
+            "description": "A responsive form app connected to a Node.js backend. Stores submitted data securely in a connected database.",
+            "features": {
+                "backendIntegration": {
+                    "title": "Backend Integration",
+                    "description": "Built with Express.js to handle HTTP requests, process form submissions, and manage server-side logic seamlessly."
+                },
+                "mongoStorage": {
+                    "title": "MongoDB Storage",
+                    "description": "Stores user messages in a MongoDB collection for secure and reliable data persistence."
+                },
+                "secureHandling": {
+                    "title": "Secure Data Handling",
+                    "description": "All form inputs are sanitized and processed safely before being saved to prevent common security vulnerabilities."
+                },
+                "emailCapture": {
+                    "title": "Email Capture",
+                    "description": "Collects and stores valid email addresses from users for future communication or notifications."
+                }
+            }
+        },
+
+        "todo": {
+            "title": "To-Do List",
+            "description": "A simple to-do manager built with React. Add, remove, and mark tasks as done with smooth, clean interactions.",
+            "features": {
+                "api": {
+                    "title": "API Integration",
+                    "description": "Connects effortlessly with RESTful APIs, enabling dynamic data fetching and real-time updates for a responsive experience."
+                },
+                "database": {
+                    "title": "Database Support",
+                    "description": "Powered by MongoDB for reliable, scalable, and high-performance data storage and querying."
+                },
+                "taskManagement": {
+                    "title": "Task Management",
+                    "description": "Easily add, edit, and delete tasks with instant UI updates. Keeps your to-do list organized and efficient."
+                },
+                "responsive": {
+                    "title": "Fully Responsive",
+                    "description": "Adaptive layouts ensure a consistent and smooth experience across smartphones, tablets, and desktops."
+                }
+            }
+        },
+
+        "quiz": {
+            "title": "Quiz Game",
+            "description": "An interactive quiz game where users answer timed questions. Tracks score and shows results dynamically.",
+            "features": {
+                "countdown": {
+                    "title": "Countdown Timer",
+                    "description": "Tracks the remaining quiz time in real-time. Automatically ends the quiz when time runs out for a fair challenge."
+                },
+                "score": {
+                    "title": "Score Tracking",
+                    "description": "Automatically calculates correct answers and displays the final score at the end of the quiz for instant feedback."
+                },
+                "navigation": {
+                    "title": "Question Navigation",
+                    "description": "Seamlessly loads the next question after submission, showing current question number and total questions to guide the user."
+                },
+                "alerts": {
+                    "title": "Interactive Alerts",
+                    "description": "Shows user-friendly notifications for timeouts, quiz completion, and errors, with options to restart or continue."
+                }
+            }
+        }
+    },
+    "buttons": {
+        "contact_me": "Contact Me",
+        "scroll_down": "Scroll down",
+        "learn_more": "Learn More",
+        "go_back": "Go Back",
+        "send_message": "Send Message",
+        "sending": "Sending...",
+        "download_cv": "Download CV",
+        "website": "Open website",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "filter": "Filter"
+    },
+    "input": {
+        "Ex. John Doe": "Ex. John Doe",
+        "Enter here...": "Enter here..."
+    }
+}

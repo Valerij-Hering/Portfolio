@@ -1,0 +1,62 @@
+
+
+.containerTextarea {
+    position: relative;
+}
+
+.myTextarea {
+    width: 100%;
+    padding-top: 15px;
+    text-indent: 15px;
+    font-family: var(--font-family-poppins-300);
+    color: var(--black-soft-color);
+    height: 45px;
+    border-radius: var(--border-radius-8);
+    border: 1px solid var(--grey-border-color);
+    background-color: var(--white-soft-color);
+    resize: vertical;
+    height: 118px;
+    min-height: 118px;
+    max-height: 400px;
+}
+
+
+.myLabel {
+    font-size: var(--font-size-14);
+    padding: 0 5px;
+    left: 15px;
+    position: absolute;
+    font-family: var(--font-family-poppins-300);
+    color: var(--grey-color);
+    background-color: var(--white-soft-color);
+    top: -11px;
+}
+
+.myTextarea::placeholder {
+    color: var(--black-soft-color);
+    font-family: var(--font-family-poppins-300);
+}
+
+.myTextarea:focus::placeholder {
+    color: transparent;
+}
+
+.myTextarea:focus {
+    border: 1px solid var(--blue-color);
+}
+
+.myTextarea:focus + .myLabel {
+    color: var(--blue-color);
+}
+
+
+/* Цвет, если нет фокуса, но есть текст */
+.myTextarea:not(:focus):not(:placeholder-shown) + .myLabel {
+    color: var(--grey-color); /* обратно серый */
+}
+
+.maxLength {
+    bottom: -20px;
+    right: 0;
+    position: absolute;
+}

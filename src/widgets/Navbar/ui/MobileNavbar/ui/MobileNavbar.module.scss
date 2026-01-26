@@ -1,0 +1,60 @@
+
+.mobileNavbar {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 10;
+    padding: 5px 0;
+    transition: background 0.2s ease;
+    &.mobileNavbarColor {
+        background: var(--blue-color);
+        box-shadow: 0 5px 10px 0 rgba(14, 42, 90, 0.365);
+    }
+
+    .containerNav {
+        width: 94%;
+    }
+
+    .subcontainerLinks {
+        height: 50px;
+        
+    }
+
+    .containerLinks {
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        padding-top: 0;
+        background-color: var(--blue-color);
+        z-index: -1;
+        box-shadow: 0 5px 10px 0 rgba(14, 42, 90, 0.365);
+    }
+
+    .linksList {
+        border-top: 1px solid #ffffff23;
+        padding: 10px;
+    }
+
+    .navLink {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: var(--gap-24);
+        padding: 10px 0px;
+        padding-left: 30px;
+        border-radius: var(--border-radius-8);
+        color: var(--white-soft-color);
+        font-family: var(--font-family-poppins-500);
+        font-size: var(--font-size-16);
+        cursor: pointer;
+    }
+
+    .activeLink {
+        background: #ffffff23;
+    }
+}
+
+

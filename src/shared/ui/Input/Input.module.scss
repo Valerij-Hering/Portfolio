@@ -1,0 +1,71 @@
+@use '@/app/styles/media-queries.scss' as *;
+
+
+.containerInput {
+    width: 100%;
+    position: relative;
+    
+    border-radius: var(--border-radius-8);
+    border: 1px solid var(--grey-border-color);
+    background-color: var(--white-soft-color);
+}
+
+.input {
+    text-indent: 15px;
+    width: 100%;
+    height: 48px;
+    font-family: var(--font-family-poppins-300);
+    color: var(--black-soft-color);
+}
+
+.input::placeholder {
+    color: var(--black-soft-color);
+    font-family: var(--font-family-poppins-300);
+
+    @include mobile-768 {
+        font-size: 14px;
+    }
+}
+
+.myLabel {
+    font-size: var(--font-size-14);
+    padding: 0 5px;
+    left: 15px;
+    position: absolute;
+    font-family: var(--font-family-poppins-300);
+    color: var(--grey-color);
+    background-color: var(--white-soft-color);
+    top: -12px;
+}
+
+.containerInput:focus-within {
+    border: 1px solid var(--blue-color);
+}
+
+/* Цвет только при фокусе */
+.input:focus + .myLabel {
+    color: var(--blue-color);
+}
+
+/* Цвет, если нет фокуса, но есть текст */
+.input:not(:focus):not(:placeholder-shown) + .myLabel {
+    color: var(--grey-color); /* обратно серый */
+}
+
+/* Английский */
+:global(body.lang-en) input::placeholder,
+:global(body.lang-en) textarea::placeholder {
+    font-family: var(--font-family-poppins-300);
+}
+
+/* Русский */
+:global(body.lang-ru) input::placeholder,
+:global(body.lang-ru) textarea::placeholder {
+    font-family: var(--font-family-inter-300);
+}
+
+/* Немецкий */
+:global(body.lang-de) input::placeholder,
+:global(body.lang-de) textarea::placeholder {
+    font-family: var(--font-family-poppins-300);
+}

@@ -1,0 +1,67 @@
+@use '@/app/styles/media-queries.scss' as *;
+
+
+.wrapper {
+    max-width: 977px;
+    border-bottom: 0.5px solid var(--white-color);
+    padding-bottom: 5px;
+    position: relative;
+    @include tablet-1024 {
+        max-width: 480px;
+    }
+}
+
+.containerFilter {
+    width: 170px;
+    margin-top: 10px;
+    position: absolute;
+    right: -90px;            // центр относительно родителя
+    transform: translateX(-50%); 
+    top: 29px;
+    padding: 5px;
+    border-radius: 7px;
+    border: var(--grey-border-color) 0.5px solid;
+    z-index: 5;
+    white-space: nowrap;
+    background-color: var(--white-color);
+    box-shadow: rgba(0, 0, 0, 0.146) 0rem 0.25rem 0.375rem -0.0625rem, rgba(0, 0, 0, 0.135) 0rem 0.125rem 0.25rem -0.0625rem;
+}
+
+
+
+.containerBtn {
+    background-color: var(--grey-border-color);
+    border-radius: var(--border-radius-50);
+    padding: 4px;
+    cursor: pointer;
+}
+
+.filterBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 7px;
+    border-radius: 6px;
+    cursor: pointer;
+    &:hover {
+        color: var(--white-color);
+        background-color: #3780ff;
+    }
+}
+
+.filterBtn:hover .checkIcon {
+    fill: var(--white-color);
+}
+
+.filterBtn:hover .filterBtnText {
+    color: var(--white-color);
+}
+
+.filterBtn:hover svg {
+    fill: var(--white-color);
+}
+
+.label {
+    text-indent: 5px;
+}

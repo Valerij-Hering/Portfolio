@@ -1,0 +1,47 @@
+@use '@/app/styles/media-queries.scss' as *;
+
+
+.skillsSection {
+    background-color: var(--white-soft-color);
+    padding: 100px 0;
+    padding-bottom: 150px;
+}
+
+.containerHeader hr {
+    width: 20px;
+    height: 2.5px;
+    background-color: var(--black-soft-color);
+    border: none;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+
+.containerContent {
+    width: 90%;
+    max-width: 1200px;
+}
+
+.subcontainerContent {
+    @include mobile-768 {
+        margin-top: 35px;
+    }
+}
+
+.content {
+    border-left: 4px solid var(--blue-color);
+    padding-left: 20px;
+}
+
+.containerSlider {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--dark-overlay-color);
+    z-index: 100;
+}
+
+.subcontainer {
+    flex: 1;
+}
+

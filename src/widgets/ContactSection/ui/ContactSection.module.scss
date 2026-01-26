@@ -1,0 +1,31 @@
+@use '@/app/styles/media-queries.scss' as *;
+
+.contactSection {
+    background-color: var(--white-soft-color);
+    padding: 100px 0;
+
+}
+
+.containerHeader hr {
+    width: 20px;
+    height: 2.5px;
+    background-color: var(--black-soft-color);
+    border: none;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+
+.containerContent {
+    width: 95%;
+    max-width: 500px;
+}
+
+.contentText {
+    text-align: justify;
+}
+
+.containerForm {
+    width: 95%;
+    max-width: 500px;
+}
+

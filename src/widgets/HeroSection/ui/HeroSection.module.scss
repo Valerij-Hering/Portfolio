@@ -1,0 +1,60 @@
+@use '@/app/styles/media-queries.scss' as *;
+
+.hero_section {
+    height: 100vh;
+}
+
+.ttt {
+    position: absolute;
+    top: 0;
+
+}
+
+
+.contentContainer {
+    margin-top: auto;
+    padding-top: 73px;
+    width: 92.4%;
+    z-index: 1;
+    
+    @include tablet-1024 {
+        width: 100%;
+    }
+}
+
+.container_chevronDown {
+    margin-top: auto;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.hero__scroll {
+    text-transform: uppercase;
+}
+
+.ChevronDown {
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 2s in
+}
+
+    @-webkit-keyframes pulse {
+    0% {
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); }
+    50% {
+            -webkit-transform: translate(0, 10px);
+            transform: translate(0, 10px); }
+    100% {
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); } }
+
+    @keyframes pulse {
+    0% {
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); }
+    50% {
+            -webkit-transform: translate(0, 10px);
+            transform: translate(0, 10px); }
+    100% {
+            -webkit-transform: translate(0, 0);
+            transform: translate(0, 0); } }

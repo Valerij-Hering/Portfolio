@@ -1,0 +1,35 @@
+@use '@/app/styles/media-queries.scss' as *;
+
+.aboutSection {
+    background-color: var(--white-soft-color);
+    padding: 100px 0;
+}
+
+.containerHeader hr {
+    width: 20px;
+    height: 2.5px;
+    background-color: var(--black-soft-color);
+    border: none;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+
+.containerContent {
+    width: 95%;
+    max-width: 1200px;
+    
+}
+
+.foto {
+    width: 100%;
+    max-width: 300px;
+    border-radius: var(--border-radius-5);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.06);
+
+}
+
+.content {
+    width: 100%;
+    max-width: 600px;
+    text-align: justify;
+}

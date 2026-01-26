@@ -1,0 +1,54 @@
+
+
+.containerInputPhone {
+    position: relative;
+    height:50px;
+    border-radius: var(--border-radius-8);
+    border: 1px solid var(--grey-border-color);
+    background-color: var(--white-soft-color);
+}
+
+.inputPhone {
+    background-color: transparent !important;
+    border: none !important;
+    width: 100% !important;
+    font-family: var(--font-family-poppins-300) !important;
+    color: var(--black-soft-color) !important;
+    background-color: var(--white-soft-color) !important;
+}
+
+.my_flag {
+    background-color: transparent !important;
+    border: none !important;
+    margin: 0 9px;
+}
+
+.searchInput {
+    width: 100%;
+}
+
+.myLabel {
+    font-size: var(--font-size-14);
+    padding: 0 5px;
+    left: 15px;
+    position: absolute;
+    font-family: var(--font-family-poppins-300);
+    color: var(--grey-color);
+    background-color: var(--white-soft-color);
+    top: -12px;
+}
+
+
+/* фокус */
+.containerInputPhone.focused {
+  border-color: var(--blue-color);
+}
+
+.containerInputPhone.focused .myLabel {
+  color: var(--blue-color);
+}
+
+/* заполнено */
+.containerInputPhone.filled:not(.focused) .myLabel {
+  color: var(--grey-color);
+}

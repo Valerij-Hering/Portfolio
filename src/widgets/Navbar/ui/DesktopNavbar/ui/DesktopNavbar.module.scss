@@ -1,0 +1,58 @@
+
+.desktopNavbar {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 10px 0;
+    transition: background 0.2s ease;
+    
+    &.desktopNavbarColor {
+        background: var(--blue-color);
+        box-shadow: 0 5px 10px 0 rgba(14, 42, 90, 0.365);
+    }
+
+    .containerNav {
+        width: 85%;
+    }
+
+    .navContent {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .containerLinks {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .navLink {
+        color: var(--white-soft-color);
+        font-family: var(--font-family-poppins-400);
+        font-size: var(--font-size-18);
+        cursor: pointer;
+        padding: 3px 20px;
+        transition: color 0.2s ease;
+    }
+
+    &.desktopNavbarColor {
+        .navLink {
+        &:hover {
+            color: var(--white-soft-color);
+        }
+        }
+    }
+
+    .activeLink {
+        color: var(--white-color);
+        position: relative;
+        background-color: #ffffff23;
+        border-radius: var(--border-radius-50);
+    }
+}

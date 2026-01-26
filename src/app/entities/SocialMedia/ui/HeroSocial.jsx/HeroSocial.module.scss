@@ -1,0 +1,13 @@
+.circle {
+    opacity: 65%;
+    transform: scale(1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    border-radius: 8px;
+    &:hover {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
+
