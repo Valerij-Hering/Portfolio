@@ -457,8 +457,8 @@ export const projects = [
     type: "fullstack",
     link: "https://new-events-calendar.netlify.app/",
     github: {
-      frontend: "https://github.com/Valerij-Hering/Events-caledar-Frontend",
-      backend: "https://github.com/Valerij-Hering/Events-calendar-Backend"
+      frontend: "https://github.com/Valerij-Hering/new-events-calendar-frontend",
+      backend: "https://github.com/Valerij-Hering/new-events-calendar-backend"
     },
     description: "projects_data.events_calendar.description",
     features: [
