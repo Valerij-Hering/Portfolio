@@ -54,13 +54,13 @@ export const MobileNavbar = () => {
         <Stack ref={menuRef} className={getStyles(styles.mobileNavbar, { [styles.mobileNavbarColor] : navColor }, [])} tag="nav" justify="center" align="center" fullWidth>
             <Stack className={styles.containerNav} justify="between" align="center">
                 <Stack align="center">
-                    <Text fontStyle="poppins700" size={isMobile ? 22 : isTablet ? 28 : 34} color="whiteSoft">Portfo</Text>
-                    <Text fontStyle="ubuntu700" size={isMobile ? 22 : isTablet ? 28 : 34} color={navColor || isMobileNavbarOpen ? "white" : "blue"}>lio.</Text>
+                    <Text fontStyle="poppins700" size={isMobile ? 24 : isTablet ? 28 : 34} color="whiteSoft">Portfo</Text>
+                    <Text fontStyle="ubuntu700" size={isMobile ? 24 : isTablet ? 28 : 34} color={navColor || isMobileNavbarOpen ? "white" : "blue"}>lio.</Text>
                 </Stack>
                 <Stack align="center" gap={12}>
-                    <LanguageSwitcher size={18}/>
+                    <LanguageSwitcher/>
                     <Button ref={toggleBtnRef}  variant="clear" noPadding onClick={(e) => {e.stopPropagation(); toggleMobileNavbar();}}>
-                        <Hamburger isActive={isMobileNavbarOpen} />
+                        <Hamburger isActive={isMobileNavbarOpen} size='35'/>
                     </Button>
                 </Stack>
                 {isMobileNavbarOpen &&
