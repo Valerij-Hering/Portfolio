@@ -60,7 +60,7 @@ export const MobileNavbar = () => {
                 <Stack align="center" gap={12}>
                     <LanguageSwitcher/>
                     <Button ref={toggleBtnRef}  variant="clear" noPadding onClick={(e) => {e.stopPropagation(); toggleMobileNavbar();}}>
-                        <Hamburger isActive={isMobileNavbarOpen} size='35'/>
+                        <Hamburger isActive={isMobileNavbarOpen} size='30'/>
                     </Button>
                 </Stack>
                 {isMobileNavbarOpen &&
