@@ -78,5 +78,7 @@
     cursor: pointer;
     background-color: #ffffff23;
     border-radius: var(--border-radius-50);
-
+    @include mobile-768 {
+        padding:2px 3px ;
+    }
 }
