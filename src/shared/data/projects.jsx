@@ -90,7 +90,7 @@ export const projects = [
   {
     id: 2,
     title: "To-Do List",
-    tech: "React.js | Node.js | MongoDB | CSS",
+    tech: "React | Node.js | MongoDB | CSS",
     image: toDoPlanner,
     imageModal: toDoPlannerModal,
     type: "fullstack",
@@ -263,7 +263,7 @@ export const projects = [
   {
     id: 7,
     title: "Split Bill",
-    tech: "React.js | CSS",
+    tech: "React | CSS",
     image: splitBill,
     imageModal: splitBillModal,
     type: "frontend",
@@ -297,7 +297,7 @@ export const projects = [
   {
     id: 8,
     title: "Recipes",
-    tech: "React.js | CSS | API Integration",
+    tech: "React | CSS | API Integration",
     image: recipesApp,
     imageModal: recipesModal,
     type: "frontend",
@@ -331,7 +331,7 @@ export const projects = [
   {
     id: 9,
     title: "Yoga website",
-    tech: "React.js | Node.js | MongoDB | REST API | CSS",
+    tech: "React | Node.js | MongoDB | REST API | CSS",
     image: yoga,
     imageModal: yogaModal,
     type: "fullstack",
@@ -376,7 +376,7 @@ export const projects = [
   {
     id: 10,
     title: "Foodies",
-    tech: "React.js | Redux | CSS",
+    tech: "React | Redux | CSS",
     image: foodies,
     imageModal: foodiesModal,
     type: "frontend",
@@ -413,7 +413,7 @@ export const projects = [
   {
     id: 11,
     title: "Weather website",
-    tech: "React.js | OpenWeather API | CSS",
+    tech: "React | OpenWeather API | CSS",
     image: weatherApp,
     imageModal: weatherAppModal,
     type: "frontend",
@@ -451,7 +451,7 @@ export const projects = [
   {
     id: 12,
     title: "Events Calendar",
-    tech: "React.js | Node.js | MongoDB | REST API | CSS",
+    tech: "React | Node.js | MongoDB | REST API | CSS",
     image: eventsCalendar,
     imageModal: eventsCalendarModal,
     type: "fullstack",
