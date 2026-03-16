@@ -90,7 +90,7 @@ export const projects = [
   {
     id: 2,
     title: "To-Do List",
-    tech: "React | Node.js | MongoDB | CSS",
+    tech: "React.js | Node.js | MongoDB | CSS",
     image: toDoPlanner,
     imageModal: toDoPlannerModal,
     type: "fullstack",
@@ -263,7 +263,7 @@ export const projects = [
   {
     id: 7,
     title: "Split Bill",
-    tech: "React | CSS",
+    tech: "React.js | CSS",
     image: splitBill,
     imageModal: splitBillModal,
     type: "frontend",
@@ -297,7 +297,7 @@ export const projects = [
   {
     id: 8,
     title: "Recipes",
-    tech: "React | CSS | API Integration",
+    tech: "React.js | CSS | API Integration",
     image: recipesApp,
     imageModal: recipesModal,
     type: "frontend",
@@ -331,7 +331,7 @@ export const projects = [
   {
     id: 9,
     title: "Yoga website",
-    tech: "React | Node.js | MongoDB | REST API | CSS",
+    tech: "React.js | Node.js | MongoDB | REST API | CSS",
     image: yoga,
     imageModal: yogaModal,
     type: "fullstack",
@@ -376,7 +376,7 @@ export const projects = [
   {
     id: 10,
     title: "Foodies",
-    tech: "React | Redux | CSS",
+    tech: "React.js | Redux | CSS",
     image: foodies,
     imageModal: foodiesModal,
     type: "frontend",
@@ -413,11 +413,11 @@ export const projects = [
   {
     id: 11,
     title: "Weather website",
-    tech: "React | OpenWeather API | CSS",
+    tech: "React.ts | OpenWeather API | CSS",
     image: weatherApp,
     imageModal: weatherAppModal,
     type: "frontend",
-    link: "https://weather-app2-vh.netlify.app/",
+    link: "https://weather-vh-ts.netlify.app/",
     github: "https://github.com/Valerij-Hering/Weather-app-geolication",
     description: "projects_data.weather_website.description",
     features: [
@@ -451,7 +451,7 @@ export const projects = [
   {
     id: 12,
     title: "Events Calendar",
-    tech: "React | Node.js | MongoDB | REST API | CSS",
+    tech: "React.js | Node.js | JWT Auth | MongoDB | REST API | SCSS",
     image: eventsCalendar,
     imageModal: eventsCalendarModal,
     type: "fullstack",
