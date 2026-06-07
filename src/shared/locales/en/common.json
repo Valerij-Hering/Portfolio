@@ -1,6 +1,6 @@
 {
     "me": {
-        "my_name": "Valerii Hering",
+        "my_name": "Valerij Hering",
         "my_address": "Ahlen, Germany"
     },
     "languages": {
@@ -26,8 +26,8 @@
     "about": {
         "About me": "About me",
         "who i am": "who i am",
-        "I'm Valerii and I'm a": "I'm Valerii and I'm a",
-        "about_text": "Hello, my name is Valerii, and I am a Front-end developer from Ahlen, Germany. I create high-quality websites and web applications with a focus on clean code and modern technologies. I have strong skills in HTML, CSS, JavaScript, React, Redux, and Node.js, and I actively work with API integration and modern development tools. Explore my profile and projects on this site to get a better understanding of who I am and what I do."
+        "I'm Valerii and I'm a": "I'm Valerij and I'm a",
+        "about_text": "Hello, my name is Valerij, and I am a Front-end developer from Ahlen, Germany. I create high-quality websites and web applications with a focus on clean code and modern technologies. I have strong skills in HTML, CSS, JavaScript, React, Redux, and Node.js, and I actively work with API integration and modern development tools. Explore my profile and projects on this site to get a better understanding of who I am and what I do."
     },
     "service": {
         "My Service": "My Service",

@@ -1,6 +1,6 @@
 {
     "me": {
-        "my_name": "Valerii Hering",
+        "my_name": "Valerij Hering",
         "my_address": "Ahlen, Deutschland"
     },
     "languages": {
@@ -26,8 +26,8 @@
     "about": {
         "About me": "Über mich",
         "who i am": "Wer ich bin",
-        "I'm Valerii and I'm a": "Ich bin Valerii und ich bin",
-        "about_text": "Hallo, mein Name ist Valerii und ich bin Frontend-Entwickler aus Ahlen, Deutschland. Ich erstelle hochwertige Websites und Webanwendungen mit Fokus auf sauberen Code und moderne Technologien. Ich habe starke Fähigkeiten in HTML, CSS, JavaScript, React, Redux und Node.js und arbeite aktiv mit API-Integration und modernen Entwicklungstools. Entdecken Sie mein Profil und meine Projekte auf dieser Website, um besser zu verstehen, wer ich bin und was ich tue."
+        "I'm Valerii and I'm a": "Ich bin Valerij und ich bin",
+        "about_text": "Hallo, mein Name ist Valerij und ich bin Frontend-Entwickler aus Ahlen, Deutschland. Ich erstelle hochwertige Websites und Webanwendungen mit Fokus auf sauberen Code und moderne Technologien. Ich habe starke Fähigkeiten in HTML, CSS, JavaScript, React, Redux und Node.js und arbeite aktiv mit API-Integration und modernen Entwicklungstools. Entdecken Sie mein Profil und meine Projekte auf dieser Website, um besser zu verstehen, wer ich bin und was ich tue."
     },
     "service": {
         "My Service": "Mein Service",
