@@ -95,7 +95,7 @@ export const ContactSection = ({idSection}) => {
                             </Stack>
                         </Stack>
                     </Stack>
-                    <ContactSocial size={20}/>
+                    <ContactSocial size={30}/>
                 </Stack>
 
                 <Stack 

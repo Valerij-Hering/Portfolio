@@ -11,7 +11,7 @@ const mapColors = {
     grey: 'var(--grey-color)'
 };
 
-export const ContactSocial = ({color = "white", size}) => {
+export const ContactSocial = ({color = "grey", size}) => {
 
     const iconColor = mapColors[color] || color;
 

@@ -15,14 +15,15 @@ export const HeroSocial = ({color = "white", size}) => {
     const iconColor = mapColors[color] || color;
 
     return (
-        <Stack direction = 'column' gap = '8'>
-            {socialMediaData.map(({ id, icon, href }) => (
+        <Stack direction = 'column' gap = '12'>
+            {socialMediaData.map(({ id, icon, href, bgColor }) => (
                 <a
                     key={id}
                     href={href}
                     target="_blank"
                     rel="noreferrer"
                     className={getStyles(styles.circle, {}, [styles[color]])}
+                    style={{ "--bg-color": bgColor }}
                 >
                     {icon(iconColor, size)}
                 </a>
