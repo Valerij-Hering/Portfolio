@@ -5,8 +5,8 @@ import { ArrowIcon } from "../../assets/svg/ArrowIcon";
 export const Pagination = ({ pageCount, onPageChange, forcePage }) => {
     return (
         <ReactPaginate
-            previousLabel={<ArrowIcon rotate="left"/>}
-            nextLabel={<ArrowIcon rotate="right"/>}
+            previousLabel={<ArrowIcon rotate="left" size="28"/>}
+            nextLabel={<ArrowIcon rotate="right" size="28"/>}
             breakLabel={"..."}
             forcePage={forcePage}
             pageCount={pageCount}
