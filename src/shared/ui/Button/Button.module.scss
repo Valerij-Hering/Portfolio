@@ -118,9 +118,8 @@
 }
 
 .filled:hover {
-  opacity: 0.92;
+  background-color: color-mix(in srgb, var(--main-color) 88%, black);
 }
-
 /*-- OUTLINE --*/
 .outline {
   background-color: transparent;

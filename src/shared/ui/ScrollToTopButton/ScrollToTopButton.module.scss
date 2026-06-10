@@ -7,10 +7,15 @@
     border-radius: 50px;
     background-color: var(--blue-color);
     color: var(--button-blue-text);
-
+    transition: 0.2s ease-out;
+    &:hover {
+        background-color: color-mix(in srgb, var(--blue-color) 87%, black);
+    }
 }
 
 .scrollToTopButton svg {
     transform: rotate(180deg);
 }
+
+
 
