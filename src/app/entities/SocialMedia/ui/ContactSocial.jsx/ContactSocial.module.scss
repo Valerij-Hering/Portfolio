@@ -9,16 +9,14 @@
     border: 1.5px solid var(--grey-color);
     &:hover {
         opacity: 1;
-
-        
         svg {
-        transition: all 0.3s ease;
+            transition: all 0.3s ease;
             transform: scale(1.4);
             fill: var(--bg-color);
-            
+            background-color: var(--white-soft-color);
+            border-radius: var(--border-radius-50);
         }
     }
-    
 }
 
 /* Tooltip */
